@@ -1,7 +1,5 @@
 # Example for phpblt 6
 
-## これはphpblt 6 説明用のプロダクトです。
-
 ## 環境
 
 ```
