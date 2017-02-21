@@ -1,4 +1,5 @@
 # Example for phpblt 6
+[![Build Status](https://travis-ci.org/kazu9su/phpblt-6-example.svg?branch=master)](https://travis-ci.org/kazu9su/phpblt-6-example)
 
 ## 環境
 
