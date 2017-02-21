@@ -27,7 +27,7 @@ class ExampleDefinitionTest extends \Tests\TestCase
         $this->def_path = env('ROOT_DIR') . ExampleValidator::FILE;
     }
 
-    function test_id_valid_valid()
+    function test_id_valid()
     {
         $this->validator->check((object) [
             'id' => 1,
