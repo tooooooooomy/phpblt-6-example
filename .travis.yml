@@ -5,7 +5,7 @@ php:
 
 script:
   - make update-source
-  - make setup
+  - make setup-testing
   - make test
 
 before_script: echo 'always_populate_raw_post_data = -1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini

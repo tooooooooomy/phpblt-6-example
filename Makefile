@@ -7,6 +7,9 @@ ifneq ("$(wildcard composer.phar)", "")
 all: update
 
 setup:
+			ln -snf .env.example .env
+
+setup-testing:
 			ln -snf .env.travis .env
 
 update:

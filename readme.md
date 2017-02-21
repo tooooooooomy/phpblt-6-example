@@ -29,3 +29,20 @@ tests/
 └ Feature/
 
 ```
+
+## セットアップ
+
+```
+
+$ make update-source
+$ make setup
+
+```
+
+## テスト
+
+```
+
+$ make test
+
+```
