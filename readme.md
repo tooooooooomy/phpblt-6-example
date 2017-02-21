@@ -4,22 +4,28 @@
 ## 環境
 
 ```
+
 php : >=7.1
 laravel: 5.4.*
+
 ```
 
 ## 見て欲しい箇所
 
 
 ```
+
 app/
-├ Http
-│ └ Controllers
+├ Http/
+│ └ Controllers/
 │    └ ExampleController.php
-└ Validator
+└ Validator/
    └ ExampleValidator.php
 docs/
-└ json-schema
+└ json-schema/
    └ example.json
-tests/以下全部
+tests/
+├ Unit/
+└ Feature/
+
 ```
